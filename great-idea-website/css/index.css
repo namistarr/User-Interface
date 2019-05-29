@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-title {
-
+* {
+box-sizing: border-box;
 }
 
 nav {
@@ -100,9 +100,7 @@ button {
 .topInfo {
 	display: inline-block;
 	height: 200px;
-	width: 500px;
-	margin-left: 125px;
-	margin-right: 125px;
+	width: 410px;
 	padding-top: 50px;
 	
 }
@@ -127,6 +125,7 @@ button {
 	margin-left: 200px;
 	padding-top: 50px;
 }
+
 footer{
 	text-align: center;
 	padding: 40px;
